@@ -60,12 +60,6 @@ class Amplitude {
     input.getNode().connect(this.amplitude);
   }
 
-  /**
-   * Get the current amplitude value of a sound.
-   * @method getLevel
-   * @for Amplitude
-   * @return {Number} Amplitude level (volume) of a sound.
-   */
   getLevel() {
     return this.amplitude.getValue();
   }
